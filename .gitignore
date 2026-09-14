@@ -1,0 +1,7 @@
+.env
+.env.*
+*.core
+*.zst
+*.efi
+*.img
+*.log

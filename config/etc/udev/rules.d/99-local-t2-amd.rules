@@ -1,0 +1,2 @@
+# T2 AMD stability workaround: keep DPM enabled, select fixed low clocks.
+ACTION=="add", SUBSYSTEM=="drm", DRIVERS=="amdgpu", ATTR{device/power_dpm_force_performance_level}="low"
